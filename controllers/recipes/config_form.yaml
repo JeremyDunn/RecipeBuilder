@@ -1,0 +1,10 @@
+name: Recipes
+form: $/jeremydunn/recipebuilder/models/recipe/fields.yaml
+modelClass: JeremyDunn\RecipeBuilder\Models\Recipe
+defaultRedirect: jeremydunn/recipebuilder/recipes
+create:
+    redirect: 'jeremydunn/recipebuilder/recipes/update/:id'
+    redirectClose: jeremydunn/recipebuilder/recipes
+update:
+    redirect: jeremydunn/recipebuilder/recipes
+    redirectClose: jeremydunn/recipebuilder/recipes

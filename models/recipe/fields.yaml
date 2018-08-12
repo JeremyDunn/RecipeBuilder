@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: 'Recipe Name'
+        span: full
+        required: 1
+        type: text
+    description:
+        label: 'Recipe Description'
+        size: large
+        span: full
+        type: textarea

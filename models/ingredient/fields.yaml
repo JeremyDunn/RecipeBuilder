@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: 'Ingredient Name'
+        span: full
+        disabled: 0
+        required: 1
+        type: text
+    description:
+        label: 'Ingredient Description'
+        size: small
+        span: full
+        type: textarea

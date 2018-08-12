@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: 'Recipe Name'
+        type: text
+        searchable: true
+    description:
+        label: Description
+        type: text
+        searchable: true
+    created_at:
+        label: 'Date Created'
+        type: datetime
+    updated_at:
+        label: 'Date Updated'
+        type: datetime

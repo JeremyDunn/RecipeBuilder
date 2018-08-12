@@ -1,0 +1,20 @@
+plugin:
+    name: 'jeremydunn.recipebuilder::lang.plugin.name'
+    description: 'jeremydunn.recipebuilder::lang.plugin.description'
+    author: 'Jeremy Dunn'
+    icon: icon-spoon
+    homepage: 'https://jeremydunn.info'
+navigation:
+    main-menu-item:
+        label: 'jeremydunn.recipebuilder::lang.plugin.name'
+        url: jeremydunn/recipebuilder/recipes
+        icon: icon-spoon
+        sideMenu:
+            side-menu-item2:
+                label: Recipes
+                url: jeremydunn/recipebuilder/recipes
+                icon: icon-list
+            side-menu-item:
+                label: Ingredients
+                url: jeremydunn/recipebuilder/ingredients
+                icon: icon-list

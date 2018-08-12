@@ -1,1 +1,5 @@
-1.0.1: First version of RecipeBuilder.
+1.0.0:
+    - 'Initialize plugin.'
+    - create_ingredients_table.php
+    - create_recipes_table.php
+    - create_recipe_steps_table.php

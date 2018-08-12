@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: 'Ingredient Name'
+        type: text
+        searchable: true
+    description:
+        label: 'Ingredient Description'
+        type: text
+        searchable: true
+    created_at:
+        label: 'Date Created'
+        type: datetime
+    updated_at:
+        label: 'Date Updated'
+        type: datetime
